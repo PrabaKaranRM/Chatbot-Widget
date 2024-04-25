@@ -1,0 +1,266 @@
+/* CSS (styles.css) */
+/* Add this CSS to your styles.css file */
+
+
+/* Add this to your existing styles.css file or create a new one */
+
+/* Style for the date picker button */
+
+.chat-bubble.user-bubble{}
+
+#date-picker-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin-left: 10px; /* Adjust the margin as needed */
+    margin-right: 10px;
+}
+
+/* Style for the calendar icon */
+#date-picker-toggle i {
+    color: #888; /* Adjust the color as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* Style for the date picker input */
+#date-picker {
+    display: none;
+    margin-left: 10px; /* Adjust the margin as needed */
+    padding: 5px;
+    border: 1px solid #ccc; /* Adjust the border color as needed */
+    border-radius: 5px; /* Adjust the border radius as needed */
+}
+
+
+
+/* Style for the emoji toggle button */
+#emoji-toggle-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#emoji-toggle-btn i {
+    color: #555; /* Adjust the color to your preference */
+    font-size: 1.5rem; /* Adjust the font size to your preference */
+}
+
+#emoji-toggle-btn:hover i {
+    color: #333; /* Adjust the hover color to your preference */
+}
+
+/* Style for the emoji picker */
+emoji-picker {
+    position: absolute;
+    bottom: 60px; /* Adjust the position as needed */
+    right: 20%; /* Adjust the position as needed */
+    z-index: 1000; /* Ensure the emoji picker is above other elements */
+    display: none; /* Hide the emoji picker by default */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style for emoji picker categories */
+emoji-picker .category {
+    padding: 10px;
+}
+
+/* Style for emoji picker emoji */
+emoji-picker .emoji {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+emoji-picker .emoji:hover {
+    background-color: #f0f0f0; /* Adjust the hover background color to your preference */
+}
+
+emoji-picker .emoji img {
+    width: 24px; /* Adjust the emoji size as needed */
+    height: 24px; /* Adjust the emoji size as needed */
+}
+
+
+i.fas.fa-edit{
+    padding: 5px;
+    color: #007bff;
+}
+
+
+.fix{
+    position: fixed;
+}
+
+.carousel-container{
+    margin-bottom: 5% !important;
+}
+
+.navbar>.container{
+    justify-content: center !important;
+}
+
+.cent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-input-container {
+    display: flex;
+    align-items: center;
+}
+
+
+#user-input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: auto !important;
+}
+
+#send-btn {
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+#send-btn:hover {
+    background-color: #0056b3;
+}
+
+/* CSS (styles.css) */
+/* CSS (styles.css) */
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content to the end */
+    width: 50%;
+    height: 90vh; /* Fixed height */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden; /* Hide the overflow from parent container */
+    background-color: #f8f8f8;
+    padding: 10px;
+  
+}
+
+.chat-messages {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column-reverse; /* Allow the chat messages to grow and take up remaining space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px; /* Add padding for better appearance */
+    margin-bottom: 10px;
+}
+
+
+
+.chat-bubble {
+    display: flex;
+    align-items: center;
+}
+
+.user-bubble {
+    justify-content: flex-end;
+}
+
+.fa-edit {
+    margin-left: 5px; /* Adjust margin as needed */
+}
+
+
+.edit-container{
+    margin-left: 10px;
+}
+
+.chat-bubble {
+    background-color: #d3e0ea;
+    color: #333;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.user-bubble {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+#send-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 0px;
+}
+
+#send-btn:hover {
+    background-color: #0056b3;
+}
+
+.option-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option-btn:hover {
+    background-color: #0056b3;
+}
+
+.option-btn:not(:last-child) {
+    margin-right: 5px;
+}
+
+.carousel-container {
+    margin-top: 10px;
+}
+
+.slick-prev, .slick-next {
+    color: #007bff;
+    font-size: 20px;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    color: #0056b3;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    .chat-container{
+        width: 100% !important;
+    }
+  }
+  
